@@ -7,23 +7,17 @@
 body {
     margin: 0;
     height: 100vh;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 500px;
-    align-items: flex-end;
-    padding-bottom: 10px;
     font-family: Arial, sans-serif;
-    background: url('Harbak.jpg') center/contain no-repeat;
-    background-size: 50% auto;
+    background: url('Harbak.jpg') center no-repeat;
+    background-size: auto 100%;
 }
 
 .overlay {
-    background: rgba(0,0,0,0);
-    padding: 70px 40px;
-    border-radius: 20px;
+    position: absolute;
+    top: 40px;      /* posun od horního okraje */
+    left: 40px;     /* posun od levého okraje */
     color: white;
     text-align: center;
-    margin-bottom: 200px;
 }
 
 #countdown {
